@@ -29,6 +29,10 @@ namespace PlatformService.Data
                 );
                 context.SaveChanges();
             }
+            else
+            {
+                Console.WriteLine("--> Data already saved");
+            }
         }
     }
 }
